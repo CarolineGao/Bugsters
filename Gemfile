@@ -47,6 +47,3 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
-
-# Cat Addition
-gem 'twitter-bootstrap-rails', '~> 3.2'
