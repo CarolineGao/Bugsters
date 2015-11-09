@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
-  get 'busters/index' => 'busters#index_buster'
+  get 'about/index' => 'aboutus#index_aboutus'
 
-  get 'teams/index' => 'teams#index_team'
+  get 'techexperts/index' => 'techexperts#index_techexpert'
+
+  get 'busters/index' => 'busters#index_buster'
 
   get 'processes/index' => 'processes#index_process'
 

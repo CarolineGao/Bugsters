@@ -2302,7 +2302,8 @@ ul.post-desc li + li{
 
 /****fun facts*****/
 .fun-fact-wrap{
-    background: url(../rev-images/slider-1.jpg);
+    background: url(../img/slider-1.jpg);
+    /**background-image: url(<%= asset_path 'slider-1.jpg' %>);**/
     background-repeat: repeat !important;
     padding-top:100px;
     padding-bottom: 70px;
