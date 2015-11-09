@@ -334,13 +334,16 @@ p.sub-text{
 }
 
 .no-padding.img-2{
-    background:url(../img/showcase-1.jpg) scroll center no-repeat;
-    /**background:url(<%= asset_path 'showcase-1.jpg' %>) scroll center no-repeat;**/
+    /** background:url(../img/showcase-1.jpg) scroll center no-repeat; **/
+    /** The above is the original code, then change to ruby code to asset_path to get the picture in assets pile images **/
+    background-image: url(<%= asset_path 'showcase-1.jpg' %>) scroll center no-repeat;
     background-size:  cover;
-   position: absolute;
-   height: 100%;
-
+    position: absolute;
+    height: 100%;
+    
 }
+
+
 @media(max-width:767px){
     .no-padding.img{
         position: relative;
