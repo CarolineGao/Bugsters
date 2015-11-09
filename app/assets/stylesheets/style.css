@@ -332,9 +332,10 @@ p.sub-text{
    height: 100%;
 
 }
+
 .no-padding.img-2{
-    /** background:url(../img/showcase-1.jpg) scroll center no-repeat;**/
-    background:url(<%= asset_path 'showcase-1.jpg' %>) scroll center no-repeat;
+    background:url(../img/showcase-1.jpg) scroll center no-repeat;
+    /**background:url(<%= asset_path 'showcase-1.jpg' %>) scroll center no-repeat;**/
     background-size:  cover;
    position: absolute;
    height: 100%;
