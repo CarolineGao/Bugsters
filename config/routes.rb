@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'career/index' => 'career#index_career'
+
   get 'about/index' => 'aboutus#index_aboutus'
 
   get 'techexperts/index' => 'techexperts#index_techexpert'
