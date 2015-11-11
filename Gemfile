@@ -47,3 +47,7 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+# 11-11-2015 Cat Add Gemfile
+
+gem 'font-awesome-rails', '~> 4.1.0.0'

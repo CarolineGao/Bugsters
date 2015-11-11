@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   get 'busters/index' => 'busters#index_buster'
 
-  get 'processes/index' => 'processes#index_process'
+  get 'processes/index' => 'processes#index_process_1'
 
   get 'faqs/index' => 'faqs#index_faq'
 
