@@ -2252,7 +2252,7 @@ ul.post-desc li + li{
     background-color: #3b5998;
 }
 .social-1 li a i.fa-twitter{
-    background-color: #0084b4;
+    background-color: #29ABE2;
 }
 .social-1 li a i.fa-google-plus{
     background-color: #C63D2D;
@@ -2264,6 +2264,17 @@ ul.post-desc li + li{
     background-color: #ea4c89;
 }
 
+.social-1 li a i.fa-linkedin{
+    background-color: #0084b4;
+}
+
+.social-1 li a i.fa-instagram{
+    background-color: #cb2027;
+}
+
+.social-1 li a i.fa-weixin{
+    background-color: #00CC00;
+}
 
 
 /**************coming soon*************/
